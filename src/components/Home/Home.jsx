@@ -1,25 +1,14 @@
 import React from "react";
-import logo from "../assets/logo.svg"
-import "./home.css"
+import "./home.css";
 
 export default function Home() {
-return (
-  //   <div className="App">
-  //   <header className="App-header">
-  //     <img src={logo} className="App-logo" alt="logo" />
-  //     <p>
-  //       Edit <code>src/App.js</code> and save to reload.
-  //     </p>
-  //     <a
-  //       className="App-link"
-  //       href="https://reactjs.org"
-  //       target="_blank"
-  //       rel="noopener noreferrer"
-  //     >
-  //       Learn React
-  //     </a>
-  //   </header>
-  // </div>
-);
+  return (
+    <div className='Home-Container'>
+      <div className='Home-Heading'>
+        <h1 className='Tech gradient-text'>TECH</h1>
+        <h1 className='Hack gradient-text'>HACK</h1>
+        <h2 className='Year gradient-text'>2023</h2>
+      </div>
+    </div>
+  );
 }
-
