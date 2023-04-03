@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Alike+Angular&family=Roboto&display=swap");
+
+.Home-Container {
+  background-color: #21192d;
+  height: 100vh;
+  width: 100vw;
+  max-width: 1558px;
+  background-image: url("../../assets/img1.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.Home-Heading {
+  font-family: "Alike Angular";
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  line-height: 100px;
+  margin: 0 50px;
+  width: 500px;
+}
+
+.gradient-text {
+  background-image: linear-gradient(180deg, #3c77cc 0%, #4f9f96 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.Tech {
+  font-size: 106px;
+}
+
+.Hack {
+  font-size: 106px;
+  align-self: center;
+}
+
+.Year {
+  font-size: 70px;
+  align-self: center;
+}
