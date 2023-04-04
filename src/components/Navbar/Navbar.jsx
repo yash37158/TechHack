@@ -1,16 +1,27 @@
-import { NavLink } from 'react-router-dom'
-import logo from '../../assets/logo.svg';
+import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import { ReactComponent as Hamburger } from '../../assets/hamburger.svg'
+import { ReactComponent as Logo } from '../../assets/logo.svg'
 import './navbar.css';
 import React from 'react';
 
 const Navbar = () => {
+  const [showNavbar, setShowNavbar] = useState(false)
+
+  const handleShowNavbar = () => {
+    setShowNavbar(!showNavbar)
+  }
+
   return (
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-        <image src={logo} className='navbar-logo' />
+       <Logo />
         </div>
-        <div className="nav-elements">
+        <div className="menu-icon" onClick={handleShowNavbar}>
+          <Hamburger />
+        </div>
+        <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>
             <li>
               <NavLink to="/Hackathons">Hackathons</NavLink>
@@ -22,7 +33,7 @@ const Navbar = () => {
               <NavLink to="/About">About</NavLink>
             </li>
             <li>
-              <NavLink to="/Rules">Rules & Navigations</NavLink>
+              <NavLink to="/Coc">Code of Conduct</NavLink>
             </li>
           </ul>
         </div>
