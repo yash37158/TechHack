@@ -76,7 +76,9 @@ img {
 }
 
 .female {
-  right: 200px;
+  width: 259px;
+  height: 392px;
+  right: 100px;
   top: 120px;
   z-index: 2;
 }

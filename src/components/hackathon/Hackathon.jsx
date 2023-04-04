@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hackathon.css";
-import male from "../../assets/img3.svg";
-import female from "../../assets/img2.svg";
+import male from "../../assets/man.svg";
+import female from "../../assets/lady.svg";
 import Modalleft from "../../assets/modalleft.svg";
 import ModalRight from "../../assets/ModalRight.svg";
 import Logo from "../../assets/hackathonLogo.svg";
