@@ -5,7 +5,7 @@ import female from "../../assets/lady.svg";
 import Modalleft from "../../assets/modalleft.svg";
 import ModalRight from "../../assets/ModalRight.svg";
 import Logo from "../../assets/hackathonLogo.svg";
-import codeImage from "../../assets/img4.svg";
+import codeImage from "../../assets/code.svg";
 
 function Hackathon() {
   return (
