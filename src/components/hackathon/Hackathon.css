@@ -1,0 +1,98 @@
+img {
+  position: absolute;
+}
+
+.hackathon-container {
+  z-index: -2;
+  position: relative;
+  background-color: #21192d;
+  height: 100vh;
+  width: 100vw;
+  max-width: 1558px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.board {
+  padding: 0 50px;
+  width: 783px;
+  height: 505px;
+  background: no-repeat;
+  background-image: url("../../assets/board.svg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.board-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.board-heading p {
+  opacity: 0.5;
+}
+
+.event-detail-container {
+  padding: 0px auto;
+  font-size: 17px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.event-detail-container .event-detail-heading {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.event-decription {
+  margin-top: 20px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.Modalleft {
+  /* background-image: url("../../assets/hackathonLogo.svg"); */
+  left: 0px;
+  top: -21px;
+
+  background-repeat: no-repeat;
+}
+
+.ModalRight {
+  right: 0px;
+  top: -21px;
+
+  background-repeat: no-repeat;
+}
+
+.female {
+  right: 200px;
+  top: 120px;
+  z-index: 2;
+}
+
+.male {
+  left: 200px;
+  bottom: 100px;
+  z-index: 2;
+}
+
+.codeImage {
+  right: 230px;
+  bottom: 115px;
+}
+
+.Logo {
+  left: 40px;
+  top: 50px;
+}
