@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { ReactComponent as Hamburger } from '../../assets/hamburger.svg'
+import { ReactComponent as Hamburger } from '../../assets/Hamburger.svg'
 import { ReactComponent as Logo } from '../../assets/logo.svg'
 import './navbar.css';
 import React from 'react';
