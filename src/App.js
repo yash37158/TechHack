@@ -3,7 +3,7 @@ import "./App.css";
 import Home from "./components/Home/Home.jsx";
 import { BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar.jsx";
-import WhatsappButton from "./components/Whatsapp/whatsapp.jsx";
+import WhatsappButton from "./components/Whatsapp/Whatsapp.jsx";
 import Team from "./components/Team/Team";
 import About from "./components/About/About";
 import Prize from "./components/Prize/Prize";
