@@ -1,0 +1,20 @@
+.Screen {
+    background-color: #07030D;
+}
+
+.About {
+    color: #B58EBC;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.Para {
+    font-size: 15px;
+    color: white;
+    text-align: justify;
+}
+
+.videoBg {
+    text-align: center;
+}
