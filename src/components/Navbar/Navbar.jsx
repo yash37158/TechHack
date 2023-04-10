@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { ReactComponent as Hamburger } from '../../assets/Hamburger.svg'
 import { ReactComponent as Logo } from '../../assets/logo.svg'
 import './navbar.css';
@@ -37,7 +36,7 @@ const Navbar = () => {
             <li>
               <a href="#sponsors" >Sponsors</a>
             </li>
-            <a target="_blank" href="https://forms.gle/eLFC6ztVSEj6QzMG9">
+            <a target="_blank" rel="noreferrer" href="https://forms.gle/eLFC6ztVSEj6QzMG9">
             <button class="inline-flex items-center bg-gray-100 border-0 text-black py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0" >Register</button>
             </a>
           </ul>

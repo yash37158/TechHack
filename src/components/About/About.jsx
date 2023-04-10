@@ -1,7 +1,6 @@
 import React from 'react'
 import './about.css'
 import about from '../../assets/about/about us.svg'
-import videoBg from '../../assets/about/video bg.svg'
 
 const About = () => {
   return (
