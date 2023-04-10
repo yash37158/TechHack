@@ -5,19 +5,21 @@ import theme2 from '../../assets/themes/theme-health_care.svg'
 import theme3 from '../../assets/themes/theme-smart_city.svg'
 import theme4 from '../../assets/themes/theme-sustainable_env.svg'
 import theme5 from '../../assets/themes/theme-women_safety.svg'
+import theme6 from '../../assets/themes/theme-open.svg'
 
 const Themes = () => {
     return (
         <div className="Screen px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-full md:px-24 lg:px-8 lg:py-20">
-          <h1 className='Themes md:px-32 pb-8'>Themes</h1>
+          <h1 className='Themes md:px-[40px] pb-8' id="themes">Themes</h1>
           <div className="grid gap-10 row-gap-10 mb-8 lg:grid-cols-3 sm:grid-cols-2 md:px-52">
             <div className="Card inline-block overflow-hidden duration-300 transform rounded-lg shadow-sm hover:-translate-y-2">
               <div className="flex flex-col ">
                 <img
                   src={theme1}
+                  className="object-cover w-full"
                   alt=""
                 />
-                <div className="flex-grow border border-t-0 rounded-b">et
+                <div className="flex-grow border border-t-0 rounded-b">
                   <div className="px-5 py-5">
                     <h6 className="Heading mb-2 font-semibold leading-5">
                       Smart Education
@@ -34,11 +36,11 @@ const Themes = () => {
               <div className="flex flex-col h-full">
                 <img
                   src={theme2}
-                  className="object-cover w-full h-48 p"
+                  className="object-cover w-full"
                   alt=""
                 />
                 <div className="flex-grow border border-t-0 rounded-b">
-                  <div className="p-5">
+                  <div className="px-5 py-5">
                     <h6 className="Heading mb-2 font-semibold leading-5">
                       Health Care
                     </h6>
@@ -54,11 +56,11 @@ const Themes = () => {
               <div className="flex flex-col h-full">
                 <img
                   src={theme3}
-                  className="object-cover w-full h-48"
+                  className="object-cover"
                   alt=""
                 />
                 <div className="flex-grow border border-t-0 rounded-b">
-                  <div className="p-5">
+                  <div className="px-5 py-5">
                     <h6 className="Heading mb-2 font-semibold leading-5">
                       Smart City
                     </h6>
@@ -74,11 +76,11 @@ const Themes = () => {
               <div className="flex flex-col h-full">
                 <img
                   src={theme4}
-                  className="object-cover w-full h-48"
+                  className="object-cover w-full"
                   alt=""
                 />
                 <div className="flex-grow border border-t-0 rounded-b">
-                  <div className="p-5">
+                  <div className="px-5 py-5">
                     <h6 className="Heading mb-2 font-semibold leading-5">
                       Sustainable Environment
                     </h6>
@@ -94,16 +96,36 @@ const Themes = () => {
               <div className="flex flex-col h-full">
                 <img
                   src={theme5}
-                  className="object-cover w-full h-48"
+                  className="object-cover w-full"
                   alt=""
                 />
                 <div className="flex-grow border border-t-0 rounded-b">
-                  <div className="p-5">
+                  <div className="px-5 py-5">
                     <h6 className="Heading mb-2 font-semibold leading-5">
                       Women Safety
                     </h6>
                     <p className="Para">
                     The objective of this Hackathon is to empower women to defend themselves against sexual assault by developing a system that ensures their safety irrespective of time or location. This initiative aims to create a safer environment for women.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="Card inline-block overflow-hidden duration-300 transform rounded-lg shadow-sm hover:-translate-y-2">
+              <div className="flex flex-col h-full">
+                <img
+                  src={theme6}
+                  className="object-cover w-full"
+                  alt=""
+                />
+                <div className="flex-grow border border-t-0 rounded-b">
+                  <div className="px-5 py-5">
+                    <h6 className="Heading mb-2 font-semibold leading-5">
+                      Open Innovation
+                    </h6>
+                    <p className="Para">
+                    Open innovation is a strategy that involves collaborating with external partners to improve the development of new products, services, and processes. 
                     </p>
                   </div>
                 </div>

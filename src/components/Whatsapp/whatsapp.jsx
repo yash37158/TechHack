@@ -17,7 +17,7 @@ const Screen4 = () => {
                 </h1>
                 <p className="ParaCo mb-8 leading-relaxed">Share your ideas, experiences, and insights with others who share your interests. Stay up-to date with group events and discussions, and make new connetions that will enrich your life.</p>
                 <div className="flex justify-center">
-                  <a href= "https://example.com/">
+                  <a href= "https://chat.whatsapp.com/ICPXbwfjK0T5Ka3GR6rwhk">
                     <button className="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">Join our Whatsapp Group</button>
                   </a>
                   </div>

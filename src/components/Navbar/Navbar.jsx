@@ -1,9 +1,11 @@
 import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { ReactComponent as Hamburger } from '../../assets/Hamburger.svg'
 import { ReactComponent as Logo } from '../../assets/logo.svg'
 import './navbar.css';
 import React from 'react';
+
+
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false)
@@ -24,17 +26,20 @@ const Navbar = () => {
         <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>
             <li>
-              <NavLink to="/Hackathons">Hackathons</NavLink>
+              <a href="#about">About</a>
+            </li>
+            {/* <li>
+              <NavLink >Event</NavLink>
+            </li> */}
+            <li>
+              <a href="#themes" >Themes</a>
             </li>
             <li>
-              <NavLink to="/Entertainment">Entertainment</NavLink>
+              <a href="#sponsors" >Sponsors</a>
             </li>
-            <li>
-              <NavLink to="/About">About</NavLink>
-            </li>
-            <li>
-              <NavLink to="/Coc">Code of Conduct</NavLink>
-            </li>
+            <a target="_blank" href="https://forms.gle/eLFC6ztVSEj6QzMG9">
+            <button class="inline-flex items-center bg-gray-100 border-0 text-black py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0" >Register</button>
+            </a>
           </ul>
         </div>
       </div>

@@ -7,6 +7,7 @@
     font-size: 40px;
     text-align: center;
     font-weight: 600;
+    margin-top: 15vh;
 }
 
 .HeadingPr {
@@ -19,4 +20,13 @@
     font-size: 15px;
     color: white;
     text-align: justify;
+}
+
+
+@media screen and (max-width: 480px){
+    .prize-div{
+        justify-content: center;
+        margin: 15px;
+        display: flex;
+    }
 }

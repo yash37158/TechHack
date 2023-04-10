@@ -18,3 +18,15 @@
 .videoBg {
     text-align: center;
 }
+
+
+
+@media screen and (max-width: 480px){
+
+    .paragraph {
+        justify-content: center;
+        margin: 15px;
+        display: flex;
+    }
+
+}

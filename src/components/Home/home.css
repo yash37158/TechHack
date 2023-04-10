@@ -1,3 +1,98 @@
-.Screen {
-  background-color: #07030D;
+.Home-Screen {
+  background-image: url(../../assets/home-bg.svg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+
+.Head-Home {
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-content: center;
+  margin-top: 250px;
+  text-align: center;
+  margin-left: 120px;
+}
+
+
+.tagline {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 63px;
+  margin-top: 20px;
+}
+
+.Slogan {
+  color: white;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  margin-top: 0;
+}
+
+.countdown-div {
+  justify-content: center;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding-left: 15px;
+}
+
+
+
+
+@media screen and (width: 768px) {
+  .countdown-div {
+    position: absolute;
+    padding-top: 24%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px){
+    
+  .Head-Home {
+    display: flexbox;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin-left: 0;
+  }
+
+  .tagline {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 30px;
+  }
+
+  .countdown-div {
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    height: 10%;
+    margin-right: 20px;
+  }
+
+  .clock {
+    margin: 2%;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .Slogan {
+    margin-top: -50px;
+  }
+
 }
