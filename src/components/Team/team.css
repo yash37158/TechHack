@@ -1,0 +1,23 @@
+.Screen {
+    background-color: #07030D;
+}
+
+.Team {
+    color: #B58EBC;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.border {
+    border-color: #9A59A6;
+}
+
+.name {
+    color: #E0CFE3;
+}
+
+.role {
+    color: #E0CFE3;
+    font-size: 12px;
+}
