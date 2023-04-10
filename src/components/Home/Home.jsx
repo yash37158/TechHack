@@ -52,7 +52,7 @@ const Home = () => {
   return (
     <div className='Home-Screen pt-1 object-fill' id="home">
       <div className='Image md:px-[320px]'>
-      <img src={TechHack} className='Head-Home'/>
+      <img src={TechHack} alt="TechHack'23" className='Head-Home'/>
       <div className=' Slogan'>
       <h1 className='tagline text-white text-2xl'>Discover - Create - Deploy</h1>
       </div>
