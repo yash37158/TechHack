@@ -1,5 +1,5 @@
 import taskade from "../../assets/logo_taskade_black.png";
-import PizzaTime from "../../assets/the pizza time logo.jpg";
+import PizzaTime from "../../assets/the_pizza_time_logo.png";
 import interviewCake from "../../assets/interview-cake.png";
 import echo from "../../assets/echo.png";
 
