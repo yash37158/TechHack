@@ -5,7 +5,7 @@ import krithika from '../../assets/team/krithika.svg'
 import soham from '../../assets/team/soham.svg'
 import roshni from '../../assets/team/roshini.svg'
 import aman from '../../assets/team/aman.svg'
-import janhavi from '../../assets/team/janhvi.svg'
+import janhavi from '../../assets/team/janhavi.svg'
 import aishwarya from '../../assets/team/aishwarya.svg'
 
 const Team = () => {

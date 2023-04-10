@@ -2,19 +2,28 @@
     background-color: #07030D;
 }
 
-.About {
+.Themes {
     color: #B58EBC;
     font-size: 40px;
     text-align: center;
     font-weight: 600;
 }
 
-.ParaAb {
+.Card {
+    background-color: #E0CFE3;
+}
+
+.Heading {
+    color: #9A59A6;
+    font-size: 20px;
+}
+
+.Para {
     font-size: 15px;
-    color: white;
+    color: #9A59A6;
     text-align: justify;
 }
 
-.videoBg {
-    text-align: center;
+.div-theme {
+    
 }

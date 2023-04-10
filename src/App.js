@@ -7,6 +7,7 @@ import WhatsappButton from "./components/Whatsapp/Whatsapp.jsx";
 import Team from "./components/Team/Team";
 import About from "./components/About/About";
 import Prize from "./components/Prize/Prize";
+import Themes from "./components/Themes/Themes";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Home></Home>
       <About />
       <Prize />
+      <Themes />
       <WhatsappButton />
       <Team />
     </div>
