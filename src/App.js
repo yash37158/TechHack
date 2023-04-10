@@ -8,6 +8,7 @@ import About from "./components/About/About";
 import Prize from "./components/Prize/Prize";
 import Themes from "./components/Themes/Themes";
 import Footer from "./components/Footer/Footer";
+import Sponsors from "./components/Sponsors/Sponsors";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Prize />
       <Themes />
       <WhatsappButton />
+      <Sponsors />
       <Team />
       <Footer />
     </div>
