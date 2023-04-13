@@ -5,7 +5,6 @@ import theme2 from '../../assets/themes/theme-health_care.svg'
 import theme3 from '../../assets/themes/theme-smart_city.svg'
 import theme4 from '../../assets/themes/theme-sustainable_env.svg'
 import theme5 from '../../assets/themes/theme-women_safety.svg'
-import theme6 from '../../assets/themes/theme-open.svg'
 
 const Themes = () => {
     return (
@@ -106,26 +105,6 @@ const Themes = () => {
                     </h6>
                     <p className="Para">
                     The objective of this Hackathon is to empower women to defend themselves against sexual assault by developing a system that ensures their safety irrespective of time or location. This initiative aims to create a safer environment for women.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="Card inline-block overflow-hidden duration-300 transform rounded-lg shadow-sm hover:-translate-y-2">
-              <div className="flex flex-col h-full">
-                <img
-                  src={theme6}
-                  className="object-cover w-full"
-                  alt=""
-                />
-                <div className="flex-grow border border-t-0 rounded-b">
-                  <div className="px-5 py-5">
-                    <h6 className="Heading mb-2 font-semibold leading-5">
-                      Open Innovation
-                    </h6>
-                    <p className="Para">
-                    Open innovation is a strategy that involves collaborating with external partners to improve the development of new products, services, and processes. 
                     </p>
                   </div>
                 </div>
